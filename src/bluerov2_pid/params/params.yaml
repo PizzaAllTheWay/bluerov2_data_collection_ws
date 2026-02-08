@@ -1,0 +1,16 @@
+/**:
+  ros__parameters:
+    state_topic_name: "/bluerov/odom"
+    ref_topic_name: "/bluerov/references"
+    input_topic_name: "/bluerov/u"
+    publish_period_ms: 10
+    thruster_config_angle: 30
+    controller:
+      configuration_gains: [100.0, 100.0, 200.0]
+      derivative_gains: [35.0, 35.0, 40.0, 10.0, 10.0, 6.0]
+      integral_gains: [.01, .01, .01, 0.08, 0.08, 0.005]
+      int_state_lower_bounds: [-1.5, -1.5, -2.0, -0.5, -0.5, -0.5]
+      int_state_upper_bounds: [1.5, 1.5, 2.0, 0.5, 0.5, 0.5]
+      delta: 0.5236
+      epsilon: 0.17
+      attitude_gain: 20.0

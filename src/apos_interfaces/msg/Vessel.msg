@@ -1,0 +1,10 @@
+string time_local
+string date_time_apos
+float32 lat
+float32 lon
+float32 northing
+float32 easting
+int32 utmzone
+string utmletter
+float32 n_ned
+float32 e_ned

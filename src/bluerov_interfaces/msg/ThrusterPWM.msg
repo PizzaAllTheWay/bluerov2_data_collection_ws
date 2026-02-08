@@ -1,0 +1,9 @@
+std_msgs/Header header
+float64 pwm1
+float64 pwm2
+float64 pwm3
+float64 pwm4
+float64 pwm5
+float64 pwm6
+float64 pwm7
+float64 pwm8

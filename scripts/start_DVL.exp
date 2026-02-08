@@ -1,0 +1,16 @@
+#!/usr/bin/expect -f
+ 
+set port "/dev/ttyS0"
+set baud "115200"
+ 
+# Start picocom
+spawn sudo picocom $port -b $baud
+ 
+# Give it time to initialize
+sleep 1
+ 
+# Send START to the DVL
+send "START\r"
+ 
+# Hand control back to user
+interact

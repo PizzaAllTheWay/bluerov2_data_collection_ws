@@ -1,0 +1,10 @@
+bluerov_actuator_driver:
+  ros__parameters:
+    input_topic_name: "/bluerov/u"
+    joy_topic_name: "/joy"
+    cam_tilt_topic_name: "/bluerov/camera/tilt"
+    brightness_topic_name: "/bluerov/light/brightness"
+    enable_topic_stats: False
+    topic_stats_topic_name: "actuator_driver_stats"
+    deadline_duration_ms: 0
+    update_period_ms: 1000
