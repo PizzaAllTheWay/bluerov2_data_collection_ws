@@ -54,7 +54,7 @@ Expected packages include:
 
 ---
 
-## Build Workspace on PC (Required)
+## Build Workspace (PC)
 
 ```bash
 ./scripts/build_topside_PC.bash
